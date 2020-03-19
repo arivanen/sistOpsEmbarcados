@@ -81,5 +81,5 @@ sed -i 's/original/nova/g'
 (s) Conferir se dois arquivos são iguais. 
 cmp
 
-(t) Escrever algo na tela.
+(t) Escrever algo na tela. echo
 
