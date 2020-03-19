@@ -1,85 +1,113 @@
-1. Por que o Linux recebeu esse nome?
-Devido ao seu criador Linus Torvalds.
+#*1*. Por que o Linux recebeu esse nome?
 
-2. O que são daemons?
-São usuários criados por demanda para controlar processos que podem eventualmente ser parados por outros usuários.
+    Devido ao seu criador Linus Torvalds.
 
-3. O que é o shell?
-O shell é o intermediário entre o usuário e o sistema operacial, sendo esta ligação as linhas de comando.
+#*2*. O que são daemons?
 
-4. Por que é importante evitar executar o terminal como super-usuário?
-Comandos como super-usuário podem deixar o sistema operacional desprotegido além de pode prejudicar a funcionalidade do mesmo.
+    São usuários criados por demanda para controlar processos que podem eventualmente ser parados por outros usuários.
 
-5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
-Tab.
+#*3*. O que é o shell?
 
-6. Quais botões do teclado apresentam instruções escritas anteriormente?
-As setas para cima e para baixo.
+    O shell é o intermediário entre o usuário e o sistema operacial, sendo esta ligação as linhas de comando.
 
-7. Apresente os respectivos comandos no terminal para: 
-(a) Obter mais informações sobre um comando.
-man
+#*4*. Por que é importante evitar executar o terminal como super-usuário?
 
-(b) Apresentar uma lista com os arquivos dentro de uma pasta. 
-ls
+    Comandos como super-usuário podem deixar o sistema operacional desprotegido além de pode prejudicar a funcionalidade do mesmo.
 
-(c) Apresentar o caminho completo da pasta.
-pwd
+#*5*. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
 
-(d) Trocar de pasta. 
-cd
+    Tab.
 
-(e) Criar uma pasta.
-mkdir
+#*6*. Quais botões do teclado apresentam instruções escritas anteriormente?
 
-(f) Apagar arquivos definitivamente. 
-rm
+    As setas para cima e para baixo.
 
-(g) Apagar pastas definitivamente. 
-rmdir
+#*7*. Apresente os respectivos comandos no terminal para: 
 
-(h) Copiar arquivos.
-cp
-(i) Copiar pastas.
-cp -R /pasta1 /pasta2
-"pasta1" pasta origem
-"pasta2" pasta onde os arquivos serão copiados
+(*a*) Obter mais informações sobre um comando.
 
-(j) Mover arquivos. 
-mv
+    man
 
-(k) Mover pastas.
-mv
+(*b*) Apresentar uma lista com os arquivos dentro de uma pasta.
 
-(l) Renomear pastas.
-mv para o mesmo diretório
+    ls
 
-(m) Apresentar o conteúdo de um arquivo.
-cat
+(*c*) Apresentar o caminho completo da pasta.
 
-(n) Apresentar o tipo de um arquivo. 
-file
+    pwd
 
-(o) Limpar a tela do terminal. 
-clear
+(*d*) Trocar de pasta. 
 
-(p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
-grep
+    cd
 
-(q) Ordenar informações em um arquivo-texto. 
-sort
+(*e*) Criar uma pasta.
 
-(r) Substituir ocorrências de palavras-chave em um arquivo-texto. 
-sed -i 's/original/nova/g'
-"-i" - in-place (define as alterações no arquivo. Se usar um sufixo, cria um backup)
-"s" - substituição
-"original" - a palavra a ser substituída
-"nova" - a nova palavra que vai substituir a antiga
-"g"- global (todo arquivo)
-"arquivo" - nome do arquivo
+    mkdir
 
-(s) Conferir se dois arquivos são iguais. 
-cmp
+(*f*) Apagar arquivos definitivamente. 
 
-(t) Escrever algo na tela. echo
+    rm
+
+(*g*) Apagar pastas definitivamente. 
+
+    rmdir
+
+(*h*) Copiar arquivos.
+
+    cp
+(*i*) Copiar pastas.
+
+    cp -R /pasta1 /pasta2
+    "pasta1" pasta origem
+    "pasta2" pasta onde os arquivos serão copiados
+
+(*j*) Mover arquivos.
+
+    mv
+
+(*k*) Mover pastas.
+
+    mv
+
+(*l*) Renomear pastas.
+
+    mv
+
+(*m*) Apresentar o conteúdo de um arquivo.
+
+    cat
+
+(*n*) Apresentar o tipo de um arquivo. 
+
+    file
+
+(*o*) Limpar a tela do terminal.
+
+    clear
+
+(*p*) Encontrar ocorrências de palavras-chave em um arquivo-texto.
+
+    grep
+
+(*q*) Ordenar informações em um arquivo-texto. 
+
+    sort
+    
+(*r*) Substituir ocorrências de palavras-chave em um arquivo-texto. 
+
+    sed -i 's/original/nova/g'
+    "-i" - in-place (define as alterações no arquivo. Se usar um sufixo, cria um backup)
+    "s" - substituição
+    "original" - a palavra a ser substituída
+    "nova" - a nova palavra que vai substituir a antiga
+    "g"- global (todo arquivo)
+    "arquivo" - nome do arquivo
+
+(*s*) Conferir se dois arquivos são iguais. 
+
+    cmp
+
+(*t*) Escrever algo na tela. 
+
+    echo
 
