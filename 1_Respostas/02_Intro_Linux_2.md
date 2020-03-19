@@ -1,23 +1,57 @@
-1. Escreva o texto "Ola mundo cruel!" em um arquivo denominado "Ola_mundo.txt". Apresente o conteúdo deste arquivo no terminal. cat Ola_mundo.txt
+#*1. Escreva o texto "Ola mundo cruel!" em um arquivo denominado "Ola_mundo.txt". Apresente o conteúdo deste arquivo no terminal. 
 
-2. Apresente o nome de todos os arquivos e pastas na pasta 'root'.-ls -a
+    cat Ola_mundo.txt
 
-3. Apresente o tipo de todos os arquivos e pastas na pasta 'root'. -ls -a --file-type
+#*2*. Apresente o nome de todos os arquivos e pastas na pasta 'root'.
 
-4. Apresente somente as pastas dentro da pasta 'root'. -ls -d
+    -ls -a
 
-5. Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
+#*3*. Apresente o tipo de todos os arquivos e pastas na pasta 'root'. 
 
-6. Liste somente os arquivos com extensão .txt. ls *.txt
+    -ls -a --file-type
 
-7. Liste somente os arquivos com extensão .png. ls *.png
+#*4*. Apresente somente as pastas dentro da pasta 'root'. 
 
-8. Liste somente os arquivos com extensão .jpg. ls *.jpg
+    -ls -d
 
-9. Liste somente os arquivos com extensão .gif. ls *.gif
+#*5*. Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
+    
+    2010- sábado
+    2011- domingo
+    2012- segunda
+    2013- quarta
+    2014- quinta
+    2015- sexta
+    2016- sábado
+    2017- segunda
+    2018- terça
+    2019- quarta
+    2020- quinta
+    
+#*6*. Liste somente os arquivos com extensão 
 
-10. Liste somente os arquivos que contenham o nome 'cal'. grep -R "cal" * 
+    .txt. ls *.txt
 
-11. Liste somente os arquivos que contenham o nome 'tux'. grep -R "tux" *
+#*7*. Liste somente os arquivos com extensão 
 
-12. Liste somente os arquivos que comecem com o nome 'tux'. ls [tux]*
+    .png. ls *.png
+
+#*8*. Liste somente os arquivos com extensão 
+
+     .jpg. ls *.jpg
+
+#*9*. Liste somente os arquivos com extensão .gif. 
+
+    ls *.gif
+
+#*10*. Liste somente os arquivos que contenham o nome 'cal'. 
+
+    grep -R "cal" * 
+
+#*11*. Liste somente os arquivos que contenham o nome 'tux'. 
+
+    grep -R "tux" *
+
+#*12*. Liste somente os arquivos que comecem com o nome 'tux'. 
+
+    ls [tux]*
