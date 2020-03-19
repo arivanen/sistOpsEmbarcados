@@ -36,7 +36,7 @@ mkdir
 rm
 
 (g) Apagar pastas definitivamente. 
-rm -r
+rmdir
 
 (h) Copiar arquivos.
 cp
