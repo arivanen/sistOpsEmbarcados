@@ -12,8 +12,9 @@
 
 #*3*. Apresente aplicações de sistemas embarcados: 
 
-    (*a*) Para a indústria automotiva; 
-    Freio ABS, painel do carro.
+(*a*) Para a indústria automotiva; 
+
+      Freio ABS, painel do carro.
 
 (*b*) Para eletrodomésticos; 
 
@@ -25,12 +26,16 @@
 
 #*4*. Cite arquiteturas possíveis e as diferenças entre elas.
 
-    -As arquiteturas de microprocessadores mais conhecidas são de Von Neumann, instruções e dados compartilham a mesma unidade física de memória; e Havard, instruções e dados são compartilhados em memórias diferentes.
-    -GPP (General Purpose Processors) é um processador que não apresenta finalidade única.
-    -ASP (Application Specific Processors) processador otimizado para uma função única, podendo ainda dividir-se em: DSP (Digital Signal Processors), ASIC (Application Specific Integrated Circuits) chip construído para uma atividade exclusiva.
-    -SoCs (System on Chip): chip que apresenta todos os componentes de um computador, podendo conter funções digitais, analógicas e de radiofrequência.
+    1.	DSP (Digital Signal Processors): utilizam sinais reais como áudio, imagem, voz, temperatura, pressão ou posição que foram digitalizado e os manipulam matematicamente. As funções utilizadas são soma, subtração, multiplicação e divisão.
+
+    2.	ASIC (Application Specific Integrated Circuits): circuitos integrados feitos para uma função específica. Geralmente é utilizado para um produto que será produzido em larga escala, e o ASIC pode conter boa parte da eletrônica necessária do produto em apenas um circuito integrado, sendo a sua fabricação dispendiosa.
+
+    3.	SoCs (System on Chip): chip que apresenta todos os componentes de um computador, podendo conter funções digitais, analógicas e de radiofrequência.
+
+    Enquanto o DSP trabalha apenas com sinais, o ASIC é um circuito integrado feito para desempenhar uma função; o SoCs seria uma versão mais completa de um sistema, já que processa informações digitais, analógicas e de radiofrequência.
 
 #*5*. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
+        
+      Apesar do desempenho excepcional de um system-on-chip, este apresenta a arquitetura RISC (Reduced Instruction Set Computing), onde um número reduzido de instruções (8 no total) estão disponíveis.  
 
-    Apesar do desempenho excepcional de um system-on-chip, este apresenta a arquitetura RISC (Reduced Instruction Set Computing),   
-    computação onde um número reduzido de instruções etão disponíveis; contudo, este tipo de arquitetura não é compatível com a maior partes dos pragramas que utilizam instruções de 32 ou 64 bits.
+    
